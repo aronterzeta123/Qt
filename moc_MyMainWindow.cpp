@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../h/MyMainWindow.h"
+#include "MyMainWindow.h"
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'MyMainWindow.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63
@@ -30,13 +30,13 @@ static const uint qt_meta_data_MyMainWindow[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      14,   13,   13,   13, 0x0a,
+      13,   27,   27,   27, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_MyMainWindow[] = {
-    "MyMainWindow\0\0clickedSlot()\0"
+    "MyMainWindow\0clickedSlot()\0\0"
 };
 
 void MyMainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
